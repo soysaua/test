@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v4.0.8/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.0","target":"arcade","targetVersion":"4.0.8"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v4.0.8/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.1","target":"arcade","targetVersion":"4.0.8","repo":"soysaua/test"}
 // total=1764748 new=2.84% cached=67.35% other=29.81%
 (function (ectx) {
 'use strict';
@@ -475,7 +475,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P18965(s) {
+function _main___P18998(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -956,13 +956,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P18965.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P18965.continuations = [  ]
+_main___P18998.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P18998.continuations = [  ]
 
-function _main___P18965_mk(s) {
+function _main___P18998_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P18965, depth: s.depth + 1,
+        parent: s, fn: _main___P18998, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -44966,5 +44966,5 @@ const sprites_BaseSpriteSayRenderer__C2276_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___4434","yes___4430","mySprite___4431"])
 
-return _main___P18965
+return _main___P18998
 })
